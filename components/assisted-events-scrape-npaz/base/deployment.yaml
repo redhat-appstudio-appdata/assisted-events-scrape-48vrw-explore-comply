@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: assisted-events-scrape-npaz
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/assisted-events-scrape/assisted-events-scrape-npaz@sha256:e3943f5b83e6a4cad67faecfdef325e7e8f060a3d5121ae1a223922e1a2867e3
         imagePullPolicy: Always
         name: container-image
         ports:
