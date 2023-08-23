@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: assisted-events-scrape-npaz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/assisted-events-scrape/assisted-events-scrape-npaz@sha256:e3943f5b83e6a4cad67faecfdef325e7e8f060a3d5121ae1a223922e1a2867e3
+        name: container-image
+        resources: {}
+status: {}
